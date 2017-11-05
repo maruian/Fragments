@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_weight="1"
+    android:id="@+id/activityPrincipal"
+    android:orientation="horizontal"
+    tools:context="com.example.admin.provantfragments.MainActivity"
+    >
+<fragment
+   android:id="@+id/fragment"
+   android:name="com.example.admin.provantfragments.FragmentEstatic"
+   android:layout_width="0dp"
+    android:layout_weight="0.5"
+
+   android:layout_height="match_parent"
+   tools:layout="@layout/fragment_fragment_estatic" />
+
+   <LinearLayout
+       android:layout_width="0dp"
+       android:layout_weight="0.5"
+       android:layout_height="match_parent"
+       android:weightSum="1"
+       android:orientation="vertical">
+
+    <FrameLayout
+        android:id="@+id/layoutFragmentDinamic1"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.5"
+        android:orientation="vertical"
+     />
+    <FrameLayout
+        android:id="@+id/layoutFragmentDinamic2"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.5"
+        android:orientation="vertical"
+     />
+
+   </LinearLayout>
+</LinearLayout>
+
+
+

@@ -1,0 +1,18 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:id="@+id/fragmentDinamic1"
+    android:foreground="?android:attr/selectableItemBackground"
+    tools:context="com.example.admin.provantfragments.FragmentDinamic1">
+
+    <!-- TODO: Update blank fragment layout -->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@android:color/holo_blue_light"
+        android:text="fragment dinamic 1"
+        android:textAlignment="center"/>
+
+</FrameLayout>
